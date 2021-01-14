@@ -1,0 +1,56 @@
+
+$bodyposition:relative;
+$font-stack:    Helvetica, sans-serif;
+$primary-color:red;
+$font-size:14px;
+$backgound: white;
+$container: relative;
+$center:center;
+$padding-searchbar:20%;
+$searchbar-width:500px;
+$searchbar-height:30px;
+$right: right;
+$border-radius:15px;
+$div-searchbar:hidden;
+$input-outline:none;
+$submit-button-color:green;
+$submit-button-margin-top:20px;
+$pointer-events-parent:none;
+$pointer-events-child:auto;
+body {
+  position: $bodyposition;
+  font: 100% $font-stack;
+  color: $primary-color;
+  background-color: $backgound;
+  font-size: $font-size;
+}
+.container{
+  position: $container;
+  pointer-events: $pointer-events-parent;
+}
+.links-position{
+float:$right;
+}
+.searchbar{
+  text-align:$center;
+  padding-top: $padding-searchbar;
+}
+#searchbar-size{
+  width: $searchbar-width;
+  height: $searchbar-height;
+  border-radius: $border-radius;
+}
+a{
+  pointer-events: $pointer-events-child;
+  }  
+input{
+  pointer-events: $pointer-events-child;
+}
+input:focus{
+  outline: $input-outline;
+}
+input[type="submit"]{
+color: $submit-button-color;
+margin-top: $submit-button-margin-top;
+}
+

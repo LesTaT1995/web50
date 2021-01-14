@@ -1,0 +1,37 @@
+body {
+  position: relative;
+  font: 100% Helvetica, sans-serif;
+  color: red;
+  background-color: white;
+  font-size: 14px; }
+
+.container {
+  position: relative;
+  pointer-events: none; }
+
+.links-position {
+  float: right; }
+
+.searchbar {
+  text-align: center;
+  padding-top: 20%; }
+
+#searchbar-size {
+  width: 500px;
+  height: 30px;
+  border-radius: 15px; }
+
+a {
+  pointer-events: auto; }
+
+input {
+  pointer-events: auto; }
+
+input:focus {
+  outline: none; }
+
+input[type="submit"] {
+  color: green;
+  margin-top: 20px; }
+
+/*# sourceMappingURL=style.css.map */
