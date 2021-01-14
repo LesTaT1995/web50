@@ -4,6 +4,7 @@ $font-stack:    Helvetica, sans-serif;
 $primary-color:red;
 $font-size:14px;
 $backgound: white;
+$input-background-color:#CCD1D1;
 $container: relative;
 $center:center;
 $padding-searchbar:20%;
@@ -11,6 +12,7 @@ $searchbar-width:500px;
 $searchbar-height:30px;
 $right: right;
 $border-radius:15px;
+$border-style-hidden:hidden;
 $div-searchbar:hidden;
 $input-outline:none;
 $submit-button-color:green;
@@ -39,11 +41,13 @@ float:$right;
   width: $searchbar-width;
   height: $searchbar-height;
   border-radius: $border-radius;
+  border-style: $border-style-hidden;
 }
 a{
   pointer-events: $pointer-events-child;
   }  
 input{
+  background-color: $input-background-color;
   pointer-events: $pointer-events-child;
 }
 input:focus{
@@ -52,5 +56,6 @@ input:focus{
 input[type="submit"]{
 color: $submit-button-color;
 margin-top: $submit-button-margin-top;
+border-radius: $border-radius;
 }
 

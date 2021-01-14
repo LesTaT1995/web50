@@ -19,12 +19,14 @@ body {
 #searchbar-size {
   width: 500px;
   height: 30px;
-  border-radius: 15px; }
+  border-radius: 15px;
+  border-style: hidden; }
 
 a {
   pointer-events: auto; }
 
 input {
+  background-color: #CCD1D1;
   pointer-events: auto; }
 
 input:focus {
@@ -32,6 +34,7 @@ input:focus {
 
 input[type="submit"] {
   color: green;
-  margin-top: 20px; }
+  margin-top: 20px;
+  border-radius: 15px; }
 
 /*# sourceMappingURL=style.css.map */
