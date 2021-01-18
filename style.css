@@ -1,7 +1,7 @@
 body {
   position: relative;
   font: 100% Helvetica, sans-serif;
-  color: red;
+  color: black;
   background-color: white;
   font-size: 14px; }
 
@@ -20,21 +20,25 @@ body {
   width: 500px;
   height: 30px;
   border-radius: 15px;
-  border-style: hidden; }
+  border-width: 1px; }
 
 a {
   pointer-events: auto; }
 
 input {
-  background-color: #CCD1D1;
+  background-color: #E4E6E7;
   pointer-events: auto; }
 
 input:focus {
+  border: solid 2px #35B7E0;
   outline: none; }
 
 input[type="submit"] {
-  color: green;
   margin-top: 20px;
   border-radius: 15px; }
+
+.advance-button {
+  background-color: #35B7E0;
+  color: white; }
 
 /*# sourceMappingURL=style.css.map */

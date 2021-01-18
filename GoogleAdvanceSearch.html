@@ -1,26 +1,62 @@
 <!DOCTYPE html>
     <head>
-      <title>Google Advance Search</title> 
+      <title>Google Advance Search</title>
+      <link rel="stylesheet" href="style.css"> 
     </head>
     <body>
-       <a href="GoogleSearch.html">Google Search</a>
+
+      
+      <div class="container">
+        <div class="links-position">
+          <a href="GoogleSearch.html">Google Search</a>
+        </div>
+      </div>
+      <div>
+        <h1 style="padding:30px 0px 30px 0px;">
+          KOOGLE
+        </h1>
+      </div> 
+      <div>
+        <h2 style="color:blueviolet;padding-left:50px;">
+          Advance search
+        </h2>
+      </div>
+      <div>
+        <h4>
+          Find these pages....
+        </h3>
+      </div>         
        <div>
-          <form action="http://www.google.com/advanced_search">
+          <form action="https://www.google.com/search">
             <br>
-            <label>All theese words:</label>
-            <input type="text" name="as_q">
+                
+                  <label>All theese words:</label>
+                  <input type="text" name="as_q">
+                  <lable>Önemli kelimeleri yazın: boz renkli tarla faresi</lable>
+               
             <br>
-            <label>This Exact word and pharese:</label>
-            <input type="text" name="as_epq">
+                
+                  <label>This Exact word and pharese:</label>
+                  <input type="text" name="as_epq">
+                  <label>Kelimelerin tamamını tırnak içine alın: "boz tarla faresi"</label>
+                
             <br>
-            <label>Any theese words:</label>
-            <input type="text" name="as_oq">
+               
+                  <label>Any theese words:</label>
+                  <input  type="text" name="as_oq">
+                  <label>İstediğiniz tüm kelimelerin arasına OR yazın: minyatür OR standart</label>
+                
             <br>
-            <label>None of theese words:</label>
-            <input type="text" name="as_eq">
+               
+                  <label>None of theese words:</label>
+                  <input type="text" name="as_eq">
+                  <label>İstemediğiniz kelimelerin hemen önüne bir eksi işareti koyun: -kemirgen, -"Jack Russell"</label>
+                
             <br>
-            <input type="submit" value="Google Advance">
-        </form>
+               
+                  <input class="advance-button" type="submit" value="Google Advance">
+              
+           </form>
       </div>
     </body>
 </html>
