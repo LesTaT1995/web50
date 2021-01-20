@@ -41,4 +41,23 @@ input[type="submit"] {
   background-color: #35B7E0;
   color: white; }
 
+.advance-input1-design {
+  margin-left: 80px;
+  width: 600px;
+  height: 20px; }
+
+.advance-input2-design {
+  width: 600px;
+  height: 20px; }
+
+.advance-input3-design {
+  margin-left: 70px;
+  width: 600px;
+  height: 20px; }
+
+.advance-input4-design {
+  margin-left: 45px;
+  width: 600px;
+  height: 20px; }
+
 /*# sourceMappingURL=style.css.map */
